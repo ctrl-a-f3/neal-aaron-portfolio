@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#09090b">
+  <meta name="description" content="Neal Aaron M. Alvarez — third-year BS Information Technology student focused on networking and infrastructure services.">
+  <title>Neal Aaron M. Alvarez — IT Portfolio</title>
+  <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800;900&family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="app-shell">
+    <header class="site-header">
+      <button class="brand" data-go="dashboard" aria-label="Neal Aaron M. Alvarez — go to dashboard" type="button">
+        <span class="brand-icon" aria-hidden="true"><svg viewBox="0 0 40 40" role="presentation" focusable="false"><path d="M11 27 20 12 30 24 20 30Z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M20 12v18M11 27l19-3" fill="none" stroke="currentColor" stroke-width="1.3" opacity=".45"/><circle cx="20" cy="12" r="3.5" fill="#e42538"/><circle cx="11" cy="27" r="3.5" fill="#f2eeee"/><circle cx="30" cy="24" r="3.5" fill="#f2eeee"/><circle cx="20" cy="30" r="2.1" fill="#e42538"/></svg></span>
+        <span class="brand-caption"><strong>NEAL AARON M. ALVAREZ</strong><small>NETWORKING / INFRASTRUCTURE</small></span>
+      </button>
+      <nav class="header-nav" aria-label="Portfolio sections">
+        <button type="button" data-go="dashboard" class="nav-btn is-current" aria-current="page"><span>01</span> Dashboard</button>
+        <button type="button" data-go="about" class="nav-btn"><span>02</span> About</button>
+        <button type="button" data-go="skills" class="nav-btn"><span>03</span> Skills</button>
+        <button type="button" data-go="certifications" class="nav-btn"><span>04</span> Certificates</button>
+      </nav>
+      <div class="header-status"><span class="live-dot"></span> STUDENT PORTFOLIO <span class="status-year">/ 2026</span></div>
+    </header>
+
+    <main class="stage" id="main">
+      <!-- Every page is one screen; content changes only when a navigation button is pressed. -->
+      <section class="view view-dashboard is-active" id="dashboard" aria-labelledby="dashboard-title">
+        <div class="dashboard-layout">
+          <div class="hero-zone">
+            <div class="hero-wordmark" data-text="PORTFOLIO" aria-hidden="true">PORTFOLIO</div>
+            <div class="hero-copy">
+              <div class="eyebrow"><span class="tiny-line"></span> PERSONAL PORTFOLIO / 2026</div>
+              <p class="hello">HELLO, I'M</p>
+              <h1 id="dashboard-title">NEAL AARON<br><em>ALVAREZ<span>.</span></em></h1>
+              <p class="hero-role">BSIT STUDENT <span>/</span> INFRASTRUCTURE SERVICES</p>
+              <p class="hero-intro">More into networks than code. Learning how to connect, configure, and troubleshoot the systems that keep IT running.</p>
+              <button type="button" class="primary-action" data-go="about">GET TO KNOW ME <span aria-hidden="true">↗</span></button>
+            </div>
+            <div class="hero-portrait" aria-label="Portrait of Neal Aaron M. Alvarez">
+              <img src="assets/images/neal-aaron-alvarez.webp" alt="Neal Aaron M. Alvarez" fetchpriority="high">
+              <div class="photo-grain" aria-hidden="true"></div>
+              <span class="portrait-label">NEAL / 2026</span>
+            </div>
+            <div class="vertical-tag" aria-hidden="true">NETWORK / INFRASTRUCTURE</div>
+          </div>
+          <div class="dashboard-actions" role="group" aria-label="Explore portfolio sections">
+            <button class="launch-card" type="button" data-go="about"><span class="launch-index">01 / PROFILE</span><strong>ABOUT ME</strong><span class="launch-caption">Who I am &amp; what drives me</span><span class="launch-arrow" aria-hidden="true">↗</span></button>
+            <button class="launch-card" type="button" data-go="skills"><span class="launch-index">02 / CAPABILITIES</span><strong>MY SKILLS</strong><span class="launch-caption">Networking, Linux &amp; more</span><span class="launch-arrow" aria-hidden="true">↗</span></button>
+            <button class="launch-card" type="button" data-go="certifications"><span class="launch-index">03 / CREDENTIALS</span><strong>CERTIFICATES</strong><span class="launch-caption">Six completed courses</span><span class="launch-arrow" aria-hidden="true">↗</span></button>
+          </div>
+          <div class="dashboard-meta"><span><b>03</b> YEAR LEVEL</span><span><b>06</b> COURSE CERTIFICATES</span><span>BASED IN <b>BULACAN, PH</b></span></div>
+        </div>
+      </section>
+
+      <section class="view view-about" id="about" aria-labelledby="about-title" aria-hidden="true" inert>
+        <div class="section-container">
+          <div class="page-heading"><p class="eyebrow"><span class="tiny-line"></span> 02 / PERSONAL PROFILE</p><h2 id="about-title">BEHIND THE <span>SCREEN.</span></h2><p>Student. Problem-solver. Future infrastructure professional.</p></div>
+          <div class="about-content">
+            <article class="about-story">
+              <span class="micro-label">A LITTLE ABOUT ME</span>
+              <h3>NOT CODE-FIRST.<br><span>NETWORK-FIRST.</span></h3>
+              <p>I'm a third-year Bachelor of Science in Information Technology student, majoring in <strong>Infrastructure Services</strong>. My interests lean toward networking, systems, and the practical side of keeping technology connected.</p>
+              <p>Coding isn't my strongest skill yet, and that's okay. I enjoy hands-on configuration, tracing connectivity issues, understanding network behavior, and learning from real lab work.</p>
+              <div class="story-bottom"><span class="square-bullet"></span> CURIOUS. PATIENT. ALWAYS LEARNING.</div>
+            </article>
+            <aside class="info-panel" aria-label="Personal information">
+              <div class="panel-label">PROFILE / 001 <span>UNDERGRADUATE</span></div>
+              <dl class="info-list">
+                <div><dt>FULL NAME</dt><dd>Neal Aaron M. Alvarez</dd></div>
+                <div><dt>AGE</dt><dd>21 years old</dd></div>
+                <div><dt>DATE OF BIRTH</dt><dd>September 3, 2005</dd></div>
+                <div><dt>ADDRESS</dt><dd>Bantog, San Miguel, Bulacan</dd></div>
+                <div><dt>PROGRAM</dt><dd>BS Information Technology</dd></div>
+                <div><dt>MAJOR</dt><dd>Infrastructure Services</dd></div>
+                <div><dt>STUDY LEVEL</dt><dd>3rd Year / Undergraduate</dd></div>
+              </dl>
+            </aside>
+          </div>
+          <div class="page-bottom"></div>
+        </div>
+      </section>
+
+      <section class="view view-skills" id="skills" aria-labelledby="skills-title" aria-hidden="true" inert>
+        <div class="section-container">
+          <div class="page-heading"><p class="eyebrow"><span class="tiny-line"></span> 03 / TECHNICAL FOCUS</p><h2 id="skills-title">WHAT I <span>WORK ON.</span></h2><p>Areas I'm actively learning through coursework, practice, and hands-on labs.</p></div>
+          <div class="skills-grid">
+            <article class="skill-tile featured"><div class="tile-top"><span>01 / PRIMARY FOCUS</span><span class="skill-symbol">↗</span></div><h3>NETWORKING &amp;<br>INFRASTRUCTURE</h3><p>IP addressing, switch and router configuration, basic routing, VLANs, DHCP, and connectivity troubleshooting.</p><div class="skill-tags"><span>ROUTING</span><span>SWITCHING</span><span>TROUBLESHOOTING</span></div></article>
+            <article class="skill-tile"><div class="tile-top"><span>02 / OPERATING SYSTEMS</span><span class="skill-symbol">&gt;_</span></div><h3>LINUX &amp;<br>SYSTEMS</h3><p>Linux terminal fundamentals, filesystems, permissions, and introductory system administration.</p><div class="skill-tags"><span>LINUX CLI</span><span>SYSTEM BASICS</span></div></article>
+            <article class="skill-tile"><div class="tile-top"><span>03 / SECURITY</span><span class="skill-symbol">⌁</span></div><h3>CYBERSECURITY<br>FOUNDATIONS</h3><p>Understanding common threats, good security habits, and why network protection matters.</p><div class="skill-tags"><span>AWARENESS</span><span>FUNDAMENTALS</span></div></article>
+            <article class="skill-tile"><div class="tile-top"><span>04 / APPROACH</span><span class="skill-symbol">◎</span></div><h3>PRACTICAL<br>PROBLEM-SOLVING</h3><p>Observe the issue, isolate the cause, test a fix, and verify the connection.</p><div class="skill-tags"><span>LAB PRACTICE</span><span>LEARNING</span></div></article>
+          </div>
+          <div class="page-bottom"></div>
+        </div>
+      </section>
+
+      <section class="view view-certifications" id="certifications" aria-labelledby="certifications-title" aria-hidden="true" inert>
+        <div class="section-container cert-container">
+          <div class="page-heading cert-heading"><div><p class="eyebrow"><span class="tiny-line"></span> 04 / COMPLETED COURSES</p><h2 id="certifications-title">CERTIFICATIONS<span>.</span></h2><p>Six Cisco Networking Academy course-completion certificates earned in 2026.</p></div><span class="cert-count">06<span> / DOCUMENTS</span></span></div>
+          <div class="cert-controls"><div class="filters" role="group" aria-label="Filter certificates"><button class="filter is-selected" type="button" data-filter="all" aria-pressed="true">ALL <span>06</span></button><button class="filter" type="button" data-filter="networking" aria-pressed="false">NETWORKING <span>03</span></button><button class="filter" type="button" data-filter="linux" aria-pressed="false">LINUX <span>02</span></button><button class="filter" type="button" data-filter="security" aria-pressed="false">SECURITY <span>01</span></button></div><span class="cert-hint">SELECT A CARD TO VIEW PDF ↗</span></div>
+          <div class="cert-grid" id="certGrid">
+            <button class="cert-card" type="button" data-category="networking" data-pdf="assets/certificates/network-addressing.pdf" data-title="Network Addressing and Basic Troubleshooting" data-certid="c287ab01-c899-4b7f-8c07-710a83db9e63" aria-label="View Network Addressing and Basic Troubleshooting certificate"><span class="cert-thumbnail"><img src="assets/images/network-addressing.webp" alt="Preview of Network Addressing and Basic Troubleshooting certificate"><span class="cert-external">↗</span></span><span class="cert-details"><small>NETWORKING / 23 OCT 2026</small><strong>Network Addressing and Basic Troubleshooting</strong><span>Bulacan State University</span></span></button>
+            <button class="cert-card" type="button" data-category="security" data-pdf="assets/certificates/cybersecurity-intro.pdf" data-title="Introduction to Cybersecurity" data-certid="da857457-4478-4a0c-839d-4796350cf199" aria-label="View Introduction to Cybersecurity certificate"><span class="cert-thumbnail"><img src="assets/images/cybersecurity-intro.webp" alt="Preview of Introduction to Cybersecurity certificate"><span class="cert-external">↗</span></span><span class="cert-details"><small>CYBERSECURITY / 06 OCT 2026</small><strong>Introduction to Cybersecurity</strong><span>DICT–ITU DTC Initiative</span></span></button>
+            <button class="cert-card" type="button" data-category="networking" data-pdf="assets/certificates/network-devices.pdf" data-title="Networking Devices and Initial Configuration" data-certid="e667a140-c938-4a3f-b9ff-456daac7b00f" aria-label="View Networking Devices and Initial Configuration certificate"><span class="cert-thumbnail"><img src="assets/images/network-devices.webp" alt="Preview of Networking Devices and Initial Configuration certificate"><span class="cert-external">↗</span></span><span class="cert-details"><small>NETWORKING / 07 SEP 2026</small><strong>Networking Devices and Initial Configuration</strong><span>Bulacan State University</span></span></button>
+            <button class="cert-card" type="button" data-category="networking" data-pdf="assets/certificates/networking-basics.pdf" data-title="Networking Basics" data-certid="e1cf32df-3a68-45e9-a2cd-58b1cc58c468" aria-label="View Networking Basics certificate"><span class="cert-thumbnail"><img src="assets/images/networking-basics.webp" alt="Preview of Networking Basics certificate"><span class="cert-external">↗</span></span><span class="cert-details"><small>NETWORKING / 12 AUG 2026</small><strong>Networking Basics</strong><span>Bulacan State University</span></span></button>
+            <button class="cert-card" type="button" data-category="linux" data-pdf="assets/certificates/linux-essentials.pdf" data-title="Linux Essentials" data-certid="6722d8be-5c1e-4815-a0f1-53aad965bee8" aria-label="View Linux Essentials certificate"><span class="cert-thumbnail"><img src="assets/images/linux-essentials.webp" alt="Preview of Linux Essentials certificate"><span class="cert-external">↗</span></span><span class="cert-details"><small>LINUX / 11 AUG 2026</small><strong>Linux Essentials</strong><span>Bulacan State University</span></span></button>
+            <button class="cert-card" type="button" data-category="linux" data-pdf="assets/certificates/linux-unhatched.pdf" data-title="Linux Unhatched" data-certid="14a4a7a9-bf89-4e3b-9703-fd7af30a48bd" aria-label="View Linux Unhatched certificate"><span class="cert-thumbnail"><img src="assets/images/linux-unhatched.webp" alt="Preview of Linux Unhatched certificate"><span class="cert-external">↗</span></span><span class="cert-details"><small>LINUX / 29 JUL 2026</small><strong>Linux Unhatched</strong><span>Bulacan State University</span></span></button>
+          </div>
+          <div class="cert-pagination"><div class="pagination-buttons"><span id="certPageStatus" aria-live="polite">01—03 / 06</span><button id="certPrevious" type="button" aria-label="Previous certificates">←</button><button id="certNext" type="button" aria-label="Next certificates">→</button></div></div>
+        </div>
+      </section>
+      <div class="transition-wipe" id="transitionWipe" aria-hidden="true"><span></span><span></span><span></span></div>
+    </main>
+
+    <footer class="site-footer"><span>© <span id="year">2026</span> NEAL AARON M. ALVAREZ</span><div class="footer-progress" aria-label="Current section"><span class="footer-current" id="footerCurrent">01</span><span class="progress-track"><span class="progress-fill" id="progressFill"></span></span><span>04</span></div><span class="footer-right">BUILT AROUND CONNECTIONS.</span></footer>
+    <nav class="mobile-tabs" aria-label="Mobile portfolio navigation"><button type="button" data-go="dashboard" class="is-current" aria-current="page">HOME</button><button type="button" data-go="about">ABOUT</button><button type="button" data-go="skills">SKILLS</button><button type="button" data-go="certifications">CERTS</button></nav>
+  </div>
+
+  <div class="cert-modal" id="certModal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modalTitle" inert>
+    <div class="modal-backdrop" data-close-modal></div>
+    <div class="modal-window">
+      <div class="modal-heading"><div><small>CISCO NETWORKING ACADEMY / COURSE CERTIFICATE</small><h3 id="modalTitle">Certificate</h3></div><button class="modal-close" id="modalClose" type="button" aria-label="Close certificate viewer">✕</button></div>
+      <div class="modal-preview"><iframe id="certificateViewer" title="Certificate PDF preview" src="about:blank"></iframe></div>
+      <div class="modal-bottom"><span id="modalCertId">CERTIFICATE ID</span><a id="modalDownload" href="#" download>DOWNLOAD ORIGINAL PDF ↓</a></div>
+    </div>
+  </div>
+</body>
+</html>
